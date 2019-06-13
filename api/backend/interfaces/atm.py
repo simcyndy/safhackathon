@@ -107,7 +107,8 @@ class ATMAdministration:
 		    [ Q ] Quit
 		""")
 
-		choice = str(raw_input("Enter an operation  :'B'(Balance), 'D'(Deposit), 'W'(Withdraw), or'Q'(Quit) : "))
+		choice = str(raw_input(
+			"Enter an operation character to perform :"))
 		if choice == "B":
 			self.check_account()
 		elif choice == "D":
