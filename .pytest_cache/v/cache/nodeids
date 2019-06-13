@@ -1,0 +1,3 @@
+[
+  "api/tests/test_atm.py::TestATMAdministration::()::test_check_account"
+]

@@ -1,0 +1,5 @@
+{
+  "api/tests/test_atm.py": true, 
+  "api/tests/test_atm.py::TestATMAdministration::()::test_check_account": true, 
+  "api/tests/test_atm.py::TestClass::()::test_check_account": true
+}
