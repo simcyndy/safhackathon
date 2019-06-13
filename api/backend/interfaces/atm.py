@@ -123,7 +123,7 @@ class ATMAdministration:
 			self.withdrawal(withdrawal_amount = amount)
 			choice = raw_input("Would you like to withdraw more money? ").lower()
 			if 'no' in choice:
-				return {'code': "500.00.002", "data": {"info": "Thankyou for banking with us.Come Again"}}
+				return {"data": {"info": "Thankyou for banking with us.Come Again"}}
 			else:
 				self.withdrawal(withdrawal_amount = amount)
 		elif choice == "Q":

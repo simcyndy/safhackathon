@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94a3689f-1ff3-4026-a9a1-6b62f736c990" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/api/backend/interfaces/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/backend/interfaces/atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/test_atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/test_atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safhackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/safhackathon/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="117" column="64" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="64" />
+            <state relative-caret-position="148">
+              <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
               <folding>
                 <element signature="e#41#55#0" expanded="true" />
               </folding>
@@ -467,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="117" column="64" selection-start-line="117" selection-start-column="64" selection-end-line="117" selection-end-column="64" />
+        <state relative-caret-position="148">
+          <caret line="125" column="24" selection-start-line="125" selection-start-column="24" selection-end-line="125" selection-end-column="24" />
           <folding>
             <element signature="e#41#55#0" expanded="true" />
           </folding>
