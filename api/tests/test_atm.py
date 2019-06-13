@@ -10,21 +10,6 @@ from mixer.backend.django import mixer
 
 # noinspection SpellCheckingInspection
 pytestmark = pytest.mark.django_db
-#
-#
-# class TestATMAdministration(object):
-#
-# 	def test_check_account(self):
-# 		account
-#
-# 	def test_withdrawal(self):
-# 		pass
-#
-# 	def test_deposit(self):
-# 		pass
-#
-#
-# import module  # The module which contains the call to input
 from api.backend.interfaces.atm import ATMAdministration
 
 
