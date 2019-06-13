@@ -8,6 +8,7 @@ import pytest
 from django.utils import timezone
 from mixer.backend.django import mixer
 
+
 # noinspection SpellCheckingInspection
 pytestmark = pytest.mark.django_db
 from api.backend.interfaces.atm import ATMAdministration

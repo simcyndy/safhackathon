@@ -121,3 +121,63 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+VENV_ROOT = '/my_personal_logs/logs/safhackathon/'
+
+LOGGING = {
+	'version': 1,
+	'disable_existing_loggers': False,
+	'formatters': {
+		'verbose': {
+			'format': '%(asctime)s-%(name)s %(module)s %(process)d %(thread)d-(%(threadName)-2s) %(levelname)s-%(message)s'
+		},
+		'simple': {
+			'format': '%(levelname)s %(message)s'
+		},
+	},
+	'filters': {
+		'special': {
+			'()': 'django.utils.log.RequireDebugFalse',
+		}
+	},
+	'handlers': {
+		'rotating_file': {
+			'level': 'INFO',
+			'formatter': 'verbose',
+			'class': 'logging.handlers.TimedRotatingFileHandler',
+			'filename': os.path.join(VENV_ROOT, '', 'safhackathon.log'),  # full path works
+			'when': 'midnight',
+			'interval': 1,
+			'backupCount': 7,
+		},
+	},
+	'loggers': {
+		'account': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'api': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'base': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'audit': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'euser': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'helaplan_v3': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		},
+		'transaction': {
+			'handlers': ['rotating_file'],
+			'level': 'INFO',
+		}
+	},
+}

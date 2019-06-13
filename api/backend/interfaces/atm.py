@@ -13,7 +13,7 @@ from random import randint
 
 # The amount of money that will be processed each time
 # taken from randint()
-account_balance = randint(0, 1000)
+account_balance = randint(0, 200000)
 
 
 class ATMAdministration:
@@ -115,7 +115,7 @@ class ATMAdministration:
 			self.deposit(deposit_amount = amount)
 			choice = raw_input("Would you like to deposit more money? ").lower()
 			if 'no' in choice:
-				return "Thankyou for banking with us.Come Again!"
+				return "Thankyou for banking with us.Come Again!!"
 			else:
 				self.deposit(deposit_amount = amount)
 		elif choice == "W":
@@ -123,7 +123,7 @@ class ATMAdministration:
 			self.withdrawal(withdrawal_amount = amount)
 			choice = raw_input("Would you like to withdraw more money? ").lower()
 			if 'no' in choice:
-				return "Thankyou for banking with us.Come Again!"
+				return {'code': "500.00.002", "data": {"info": "Thankyou for banking with us.Come Again"}}
 			else:
 				self.withdrawal(withdrawal_amount = amount)
 		elif choice == "Q":
