@@ -3,20 +3,19 @@
 The ATM interface
 """
 import logging
+from random import randint
 from decimal import Decimal
-from account.models import Customer as customer
-from account.models import CustomerBusinessAccount as customer_business_account
+from account.backend.services import CustomerBusinessAccountService
+from base.backend.services import StateService
 
 lgr = logging.getLogger(__name__)
-
-from random import randint
 
 # The amount of money that will be processed each time
 # taken from randint()
 account_balance = randint(0, 200000)
 
 
-class ATMAdministration:
+class ATMAdministration(object):
 	"""
 	The class for ATM Administration functionality.
 	# Enter  Amount
@@ -34,14 +33,16 @@ class ATMAdministration:
 		if 'yes' in choice:
 			self.welcome_screen()
 		else:
-			return "Thankyou for banking with us.Come Again!"
+			print("Thank you for Banking with us.Come Again!")
 
 	def withdrawal(
-			self, withdrawal_amount, max_withdrawal_for_day = Decimal(50000), max_withdrawal_per_transaction = Decimal(
+			self, customer, withdrawal_amount, max_withdrawal_for_day = Decimal(50000),
+			max_withdrawal_per_transaction = Decimal(
 				20000),
 			max_withdrawal_frequency = 3):
 		"""
 		Withdraws amount from bank
+		:param customer:
 		:param withdrawal_amount:
 		:param max_withdrawal_for_day:
 		:param max_withdrawal_per_transaction:
@@ -53,6 +54,9 @@ class ATMAdministration:
 				if withdrawal_amount < max_withdrawal_per_transaction:
 					withdrawal_frequency = 0
 					if withdrawal_frequency < max_withdrawal_frequency:
+						state_active = StateService().get(name = "Active")
+						customer_business_account = CustomerBusinessAccountService().get(
+							customer = customer, state = state_active)
 						if withdrawal_amount > customer_business_account.available:
 							withdrawal_frequency += withdrawal_frequency
 							customer_available_balance = customer_business_account.available
@@ -67,10 +71,12 @@ class ATMAdministration:
 			return {'code': '500.00.001'}
 
 	def deposit(
-			self, deposit_amount, max_deposit_for_day = Decimal(150000), max_deposit_per_transaction = Decimal(40000),
+			self, customer, deposit_amount, max_deposit_for_day = Decimal(150000), max_deposit_per_transaction =
+			Decimal(40000),
 			max_deposit_frequency = 4):
 		"""
 		Deposits an amount in the Customer Account
+		:param customer:
 		:param deposit_amount: the amount to be deposited
 		:param max_deposit_for_day:
 		:param max_deposit_per_transaction:
@@ -83,6 +89,9 @@ class ATMAdministration:
 					deposit_frequency = 0
 					if deposit_frequency < max_deposit_frequency:
 						deposit_frequency += deposit_frequency
+						state_active = StateService().get(name = "Active")
+						customer_business_account = CustomerBusinessAccountService().get(
+							customer = customer, state = state_active)
 						customer_available_balance = customer_business_account.available
 						customer_available_balance += deposit_amount
 						return customer_available_balance
@@ -93,22 +102,27 @@ class ATMAdministration:
 			lgr.exception("Deposit Error:%s", e)
 			return {'code': '500.00.001'}
 
-	def welcome_screen(self, choice):
+	# def end(self, answer):
+	# 	if answer  == ""
+
+	def welcome_screen(self):
 		"""Main function of the program"""
 
 		print (
-			"**********************************************************************************************************")
-		print ("""
-			Welcome to the SafHackathon Bank!
-		    Options include:
-		    [ B ] View Account Balance
-		    [ D ] Deposit funds
-		    [ W ] Withdraw funds
-		    [ Q ] Quit
-		""")
+			"********************************************************************************************************")
+		print (
+			"""
+				Welcome to the SafHackathon Bank!
+			    Options include:
+			    [ B ] View Account Balance
+			    [ D ] Deposit funds
+			    [ W ] Withdraw funds
+			    [ Q ] Quit
+		    """
+		)
 
 		choice = str(raw_input(
-			"Enter an operation character to perform :"))
+			"Enter a character to perform an operation:"))
 		if choice == "B":
 			self.check_account()
 		elif choice == "D":
@@ -131,6 +145,7 @@ class ATMAdministration:
 			ended = (input("Are you sure you want to quit? (y/n)"))
 			if ended.lower() == "y":
 				return "Thankyou for banking with us.Come Again!"
+			self.welcome_screen()
 		else:
 			return "Invalid option,Please try again"
 

@@ -19,7 +19,7 @@ class CustomerService(ServiceBase):
 
 class CustomerBusinessAccountService(ServiceBase):
 	"""
-	Defines the CRUD operations for the Customer model, i.e:
+	Defines the CRUD operations for the CustomerBusinessAccount model, i.e:
 		- get(*args, **kwargs)
 		- filter(*args, **kwargs)
 		- create(**kwargs)

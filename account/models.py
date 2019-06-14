@@ -23,7 +23,7 @@ class Customer(BaseModel):
 		return '%s %s' % (self.first_name, self.last_name)
 
 
-class CustomerBusinessAccount(object):
+class CustomerBusinessAccount(BaseModel):
 	"""
 	Define BusinessAccount model. e.g. Jane Doe Other Loan Available - 6700
 	"""

@@ -21,9 +21,9 @@ def operate_atm(request):
 	@rtype: JsonResponse
 	"""
 	try:
-		request_data = get_request_data(request)
-		choice = request_data.get('choice', None)
-		return JsonResponse(ATMAdministration().welcome_screen(choice = choice))
+		# request_data = get_request_data(request)
+		# choice = request_data.get('choice', None)
+		return JsonResponse(ATMAdministration().welcome_screen())
 	except Exception as e:
 		lgr.exception('operate_atm Exception: %s', e)
 	return JsonResponse({'code': '800.005.006'})
