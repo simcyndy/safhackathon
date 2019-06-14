@@ -19,4 +19,37 @@ To run the program :
 1. Run the command : python atm.py
 2. See the magic happen! :-)
 
++++++++++++++++++++++++++
+TO RUN TESTS
++++++++++++++++++++++++++
+Install Dependencies
+---------------------
 
+	pip install django
+  
+Usage
+-----------
+	python manage.py runserver
+  
+----------------------
+Make Migrations 
+
+	#make migrations
+	python manage.py makemigrations
+
+	#apply migrations
+	python manage.py migrate
+  
+ Tests
+-----------
+Install required plugins for testing
+
+	pip install pytest
+	pip install pytest-django
+	pip install git+git://github.com/mverteuil/pytest-ipdb.git
+	pip install pytest-cov
+	pip install mixer
+	
+Run the tests
+---------------
+	py.test
