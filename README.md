@@ -22,6 +22,9 @@ To run the program :
 +++++++++++++++++++++++++
 TO RUN TESTS
 +++++++++++++++++++++++++
+
+
+
 Install Dependencies
 ---------------------
 
@@ -31,8 +34,8 @@ Usage
 -----------
 	python manage.py runserver
   
-----------------------
-Make Migrations 
+Make and Apply Migrations
+----------- 
 
 	#make migrations
 	python manage.py makemigrations
