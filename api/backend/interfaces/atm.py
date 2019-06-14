@@ -13,12 +13,6 @@ def check_account():
 
 	global account_balance
 	print("Your current account balance is :", account_balance)
-	choice = raw_input("Return to Main Menu?(yes/no) ").lower()
-	if 'yes' in choice:
-		welcome_screen()
-	print("Thank you for Banking with us.Come Again!")
-	print(format_print())
-	return
 
 
 def withdrawal(
