@@ -137,8 +137,7 @@ def welcome_screen():
 		ended = (input("Are you sure you want to quit? (y/n)"))
 		if ended.lower() == "y":
 			exit(0)
-			return
-		welcome_screen()
+		return
 	else:
 		return "Invalid option,Please try again"
 
