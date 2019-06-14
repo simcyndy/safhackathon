@@ -43,7 +43,10 @@ def withdrawal(
 		if withdrawal_frequency + 1 > max_withdrawal_frequency:
 			print('Failed. You have reached Maximum Withdrawal Frequencies for the day')
 			return
-		account_balance += withdrawal_amount
+		if account_balance - withdrawal_amount < 0:
+			print('Failed. Cannot withdraw when balance is less than withdrawal amount')
+			return
+		account_balance -= withdrawal_amount
 		withdrawal_total += withdrawal_amount
 		withdrawal_frequency += 1
 		print('[ You have Successfully withdrawn: %s]\n\n' % withdrawal_amount)
