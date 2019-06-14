@@ -6,51 +6,15 @@ ATM Machine
 ATM Machine
 ================
 
-Application for ATM Machines
+Application for ATM Machines - Check Account Balance, Deposit Funds, Withdraw Funds
 
 Python 2.7
 ---------
 
 Install Python 3.0 from [Python download page](https://www.python.org/downloads/)
 
-Install Dependencies
----------------------
 
-	pip install django
 
-Usage
------------
-	python manage.py runserver
-	
-First Time Deployment
-----------------------
-To run the application for the first time after cloning:
-
-	#make migrations
-	python manage.py makemigrations
-
-	#apply migrations
-	python manage.py migrate
-
-	#load initial default data (loaded in fixture.json file)
-	python manage.py loaddata fixture
-
-	#runserver
-	python manage.py runserver
-
-	
-Tests
------------
-Install required plugins for testing
-
-	pip install pytest
-	pip install pytest-django
-	pip install git+git://github.com/mverteuil/pytest-ipdb.git
-	pip install pytest-cov
-	pip install mixer
-	
-Run the tests
----------------
-	py.test
- 
-
+To run the program :
+1.run the command : python atm.py
+2.See the magic happen! :-)
