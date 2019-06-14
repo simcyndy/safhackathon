@@ -1,4 +1,3 @@
-# safhackathon
 ATM Machine
 
 [![N|Solid](https://www.drupal.org/files/issues/ddocs-3.gif)](https://docs.google.com/spreadsheets/d/1INSlOjEKIf4q_UXiSpsn_lKb8VHZKI3XWxlIkIAOawM/edit#gid=0)
@@ -24,7 +23,7 @@ To run the program :
       <ul>See the magic happen! :-)</ul>
     </li>
   </p>
-  <body>
+  </body>
 </html>
 
 
