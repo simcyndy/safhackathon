@@ -17,7 +17,8 @@ def check_account():
 	if 'yes' in choice:
 		welcome_screen()
 	print("Thank you for Banking with us.Come Again!")
-	print("-----------------------------------------------------------------------------------------------------------")
+	print(format_print())
+	return
 
 
 def withdrawal(
