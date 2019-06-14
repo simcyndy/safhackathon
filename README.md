@@ -22,8 +22,8 @@ To run the program :
     <li>
       <ul>Run the command : python atm.py</ul>
       <ul>See the magic happen! :-)</ul>
-      </p>
-    <li>
+    </li>
+  </p>
   <body>
 </html>
 
