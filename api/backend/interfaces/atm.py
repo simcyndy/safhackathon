@@ -16,8 +16,8 @@ def check_account():
 	choice = raw_input("Return to Main Menu?(yes/no) ").lower()
 	if 'yes' in choice:
 		welcome_screen()
-	else:
-		print("Thank you for Banking with us.Come Again!")
+	print("Thank you for Banking with us.Come Again!")
+	print("-----------------------------------------------------------------------------------------------------------")
 
 
 def withdrawal(
@@ -35,19 +35,20 @@ def withdrawal(
 		global withdrawal_total
 		global withdrawal_frequency
 		global account_balance
-		if (withdrawal_amount + withdrawal_total) < max_withdrawal_for_day:
-			if withdrawal_amount < max_withdrawal_per_transaction:
-				if withdrawal_frequency < max_withdrawal_frequency:
-					withdrawal_frequency += withdrawal_frequency
-					account_balance -= withdrawal_amount
-					print('[ You have Successfully withdrawn: %s]\n\n' % withdrawal_amount)
-					print('[ New Account Balance: %s]\n\n' % account_balance)
-					return
-				print ("You have reached Maximum Withdrawal Frequencies for the day")
-				return
-			print("You Are above the Maximum Transactional Limit")
+		if withdrawal_amount > max_withdrawal_per_transaction:
+			print('Failed.You Are above the Maximum Transactional Limit.Maximum limit is 20,000')
 			return
-		print("You have reached the Maximum Withdrawal for the day")
+		if withdrawal_amount + withdrawal_total > max_withdrawal_for_day:
+			print('Failed. You have reached the Maximum Amount allowed for Withdrawal for the day. Try Again Tommorrow')
+			return
+		if withdrawal_frequency + 1 > max_withdrawal_frequency:
+			print('Failed. You have reached Maximum Withdrawal Frequencies for the day')
+			return
+		account_balance += withdrawal_amount
+		withdrawal_total += withdrawal_amount
+		withdrawal_frequency += 1
+		print('[ You have Successfully withdrawn: %s]\n\n' % withdrawal_amount)
+		print('[ New Account Balance: %s]\n\n' % account_balance)
 		return
 	except Exception as e:
 		lgr.exception("Withdrawal Error:%s", e)
@@ -69,19 +70,20 @@ def deposit(
 		global deposit_total
 		global deposit_frequency
 		global account_balance
-		if (deposit_amount + deposit_total) < max_deposit_for_day:
-			if deposit_amount < max_deposit_per_transaction:
-				if deposit_frequency < max_deposit_frequency:
-					deposit_frequency += deposit_frequency
-					account_balance += deposit_amount
-					print('[ You have Successfully deposited: %s]\n\n' % deposit_amount)
-					print('[ New Account Balance: %s]\n\n' % account_balance)
-					return
-				print ("You have reached Maximum Deposit Frequencies for the day")
-				return
-			print("You Are above the Maximum Transactional Limit.Maximum limit is 40,000")
+		if deposit_amount > max_deposit_per_transaction:
+			print('Failed.You Are above the Maximum Transactional Limit.Maximum limit is 40,000')
 			return
-		print("You have reached the Maximum Deposit for the day")
+		if deposit_amount + deposit_total > max_deposit_for_day:
+			print('Failed. You have reached the Maximum Amount allowed for Deposit for the day. Try Again Tommorrow')
+			return
+		if deposit_frequency + 1 > max_deposit_frequency:
+			print('Failed. You have reached Maximum Deposit Frequencies for the day')
+			return
+		account_balance += deposit_amount
+		deposit_total += deposit_amount
+		deposit_frequency += 1
+		print('[ You have Successfully deposited: %s]\n\n' % deposit_amount)
+		print('[ New Account Balance: %s]\n\n' % account_balance)
 		return
 	except Exception as e:
 		lgr.exception("Deposit Error:%s", e)
@@ -93,10 +95,7 @@ def format_print():
 
 def welcome_screen():
 	"""Main function of the program"""
-	printed = format_print()
-	print(printed)
-	# print (
-	# 	"********************************************************************************************************")
+	format_print()
 	print (
 		"""
 		Welcome to the SafHackathon Bank!
@@ -107,7 +106,7 @@ def welcome_screen():
 		    [ Q ] Quit
 	    """
 	)
-	print(printed)
+	format_print()
 
 	choice = str(raw_input(
 		"Enter a character to perform an operation:"))
@@ -115,21 +114,16 @@ def welcome_screen():
 		print (
 			"*****************************************CHECK BALANCE*********************************************")
 		check_account()
-		print(printed)
+		format_print()
 	elif choice == "D":
 		print (
 			"*****************************************DEPOSIT FUNDS*********************************************")
 		amount = float(input("Enter an amount to deposit: "))
 		deposit(deposit_amount = amount)
-		choice = raw_input("Would you like to deposit more money? (yes/no)").lower()
-		if 'no' in choice:
-			print "Thankyou for banking with us.Come Again!!"
-			print ("********************************************************************************************")
-		else:
-			amount = float(input("Enter an amount to deposit: "))
-			deposit(deposit_amount = amount)
 	elif choice == "W":
-		amount = float(input("Enter an amount to deposit: "))
+		print (
+			"*****************************************WITHDRAW FUNDS*********************************************")
+		amount = float(input("Enter an amount to withdraw: "))
 		withdrawal(withdrawal_amount = amount)
 		choice = raw_input("Would you like to withdraw more money? ").lower()
 		if 'no' in choice:
