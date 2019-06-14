@@ -20,8 +20,8 @@ To run the program :
   <body>
   <p>
     <li>
-      <ul>1.Run the command : python atm.py</ul>
-      <ul>2.See the magic happen! :-)</ul>
+      <ul>Run the command : python atm.py</ul>
+      <ul>See the magic happen! :-)</ul>
       </p>
     <li>
   <body>
