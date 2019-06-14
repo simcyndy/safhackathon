@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a3689f-1ff3-4026-a9a1-6b62f736c990" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/account/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/backend/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/backend/services.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/backend/interfaces/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/backend/interfaces/atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/backend/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/backend/servicebase.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/backend/services.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/backend/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/migrations/0002_auto_20190613_1303.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +21,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="150">
+              <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
               <folding>
                 <element signature="e#41#55#0" expanded="true" />
               </folding>
@@ -57,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
@@ -107,8 +83,8 @@
         <option value="$PROJECT_DIR$/account/models.py" />
         <option value="$PROJECT_DIR$/api/urls.py" />
         <option value="$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py" />
-        <option value="$PROJECT_DIR$/api/backend/interfaces/atm.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
+        <option value="$PROJECT_DIR$/api/backend/interfaces/atm.py" />
       </list>
     </option>
   </component>
@@ -135,6 +111,27 @@
               <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
               <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="atm.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -308,7 +305,7 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49698794" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49698794" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.50301206" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,7 +316,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33179724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33179724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -473,22 +470,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#41#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="137" column="46" selection-start-line="137" selection-start-column="46" selection-end-line="137" selection-end-column="46" />
+          <folding>
+            <element signature="e#41#55#0" expanded="true" />
           </folding>
         </state>
       </provider>

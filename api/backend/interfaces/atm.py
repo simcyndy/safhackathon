@@ -26,10 +26,14 @@ def withdrawal(
 		max_withdrawal_per_transaction = Decimal(20000), max_withdrawal_frequency = 3):
 	"""
 	Withdraws amount from account
-	:param withdrawal_amount:
-	:param max_withdrawal_for_day:
-	:param max_withdrawal_per_transaction:
-	:param max_withdrawal_frequency:
+	:param withdrawal_amount: the amount to be withdrawn
+	:type: Decimal
+	:param max_withdrawal_for_day: the maximum amount to be withdrawn for the day
+	:type: Decimal
+	:param max_withdrawal_per_transaction: the max withdrawal per transaction
+	:type: Decimal
+	:param max_withdrawal_frequency: the maximum withdrawal frequency
+	:type: int
 	:return:
 	"""
 	try:
@@ -60,11 +64,15 @@ def deposit(
 		deposit_amount, max_deposit_for_day = Decimal(150000), max_deposit_per_transaction = Decimal(40000),
 		max_deposit_frequency = 4):
 	"""
-	Deposits an amount in the Customer Account
+	Deposits an amount in the Account
 	:param deposit_amount: the amount to be deposited
-	:param max_deposit_for_day:
-	:param max_deposit_per_transaction:
-	:param max_deposit_frequency:
+	:type: Decimal
+	:param max_deposit_for_day: the maximum deposit for the day
+	:type: Decimal
+	:param max_deposit_per_transaction: the maximum deposit per transaction
+	:type: Decimal
+	:param max_deposit_frequency: the maximum deposit frequency
+	:type: int
 	:return:
 	"""
 	try:
@@ -128,11 +136,6 @@ def welcome_screen():
 			"*****************************************WITHDRAW FUNDS*********************************************")
 		amount = float(input("Enter an amount to withdraw: "))
 		withdrawal(withdrawal_amount = amount)
-		choice = raw_input("Would you like to withdraw more money? ").lower()
-		if 'no' in choice:
-			return {"data": {"info": "Thankyou for banking with us.Come Again"}}
-		else:
-			withdrawal(withdrawal_amount = amount)
 	elif choice == "Q":
 		ended = (input("Are you sure you want to quit? (y/n)"))
 		if ended.lower() == "y":
