@@ -134,12 +134,13 @@ def welcome_screen():
 		amount = float(input("Enter an amount to withdraw: "))
 		withdrawal(withdrawal_amount = amount)
 	elif choice == "Q":
-		ended = (input("Are you sure you want to quit? (y/n)"))
-		if ended.lower() == "y":
+		ended = (raw_input("Are you sure you want to quit? (yes/no)")).lower()
+		if ended == "yes":
+			print("Goodbye....")
 			exit(0)
 		return
 	else:
-		return "Invalid option,Please try again"
+		print("Invalid option,Please try again")
 
 
 if __name__ == '__main__':
