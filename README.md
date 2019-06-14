@@ -15,15 +15,7 @@ Install Python 3.0 from [Python download page](https://www.python.org/downloads/
 
 
 To run the program :
-<html>
-  <body>
-  <p>
-    <li>
-      <ul>Run the command : python atm.py</ul>
-      <ul>See the magic happen! :-)</ul>
-    </li>
-  </p>
-  </body>
-</html>
+Run the command : python atm.py
+See the magic happen! :-)
 
 
