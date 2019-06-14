@@ -23,6 +23,7 @@ To run the program :
       <ul>1.Run the command : python atm.py</ul>
       <ul>2.See the magic happen! :-)</ul>
       </p>
+    <li>
   <body>
 </html>
 
