@@ -139,7 +139,8 @@ def welcome_screen():
 	elif choice == "Q":
 		ended = (input("Are you sure you want to quit? (y/n)"))
 		if ended.lower() == "y":
-			return "Thankyou for banking with us.Come Again!"
+			exit(0)
+			return
 		welcome_screen()
 	else:
 		return "Invalid option,Please try again"
@@ -152,4 +153,5 @@ if __name__ == '__main__':
 	deposit_frequency = 0
 	withdrawal_total = 0.00
 	withdrawal_frequency = 0
-	welcome_screen()
+	while True:
+		welcome_screen()

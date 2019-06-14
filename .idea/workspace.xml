@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a3689f-1ff3-4026-a9a1-6b62f736c990" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/backend/interfaces/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/backend/interfaces/atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/backend/services.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="126" column="114" selection-start-line="126" selection-start-column="114" selection-end-line="126" selection-end-column="114" />
+            <state relative-caret-position="254">
+              <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
               <folding>
                 <element signature="e#41#55#0" expanded="true" />
               </folding>
@@ -30,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="39" column="18" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="18" />
+            <state relative-caret-position="212">
+              <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -371,7 +368,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38556066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3840246" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -533,15 +530,15 @@
     </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="39" column="18" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="18" />
+        <state relative-caret-position="212">
+          <caret line="71" column="15" lean-forward="true" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="126" column="114" selection-start-line="126" selection-start-column="114" selection-end-line="126" selection-end-column="114" />
+        <state relative-caret-position="254">
+          <caret line="156" column="8" selection-start-line="156" selection-start-column="8" selection-end-line="156" selection-end-column="8" />
           <folding>
             <element signature="e#41#55#0" expanded="true" />
           </folding>
