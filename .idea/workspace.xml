@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a3689f-1ff3-4026-a9a1-6b62f736c990" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/.coverage" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/status.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/tests/test_atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/test_atm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/safhackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/safhackathon/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,10 +27,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/tests/test_atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
               <folding>
-                <element signature="e#65#92#0" expanded="true" />
+                <element signature="e#16#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,13 +138,6 @@
               <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
-              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="test_atm.py" type="8704e2dd:PyFileNode" />
             </path>
             <path>
               <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
@@ -397,13 +382,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59907836" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.59907836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33179724" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33179724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -576,10 +561,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/tests/test_atm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
           <folding>
-            <element signature="e#65#92#0" expanded="true" />
+            <element signature="e#16#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,8 +1,4 @@
 # coding=utf-8
-"""
-Test for the API services CRUD operations
-"""
-from decimal import Decimal
 
 import pytest
 import mock
