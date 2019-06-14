@@ -4,8 +4,6 @@ import logging
 
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
-
-from api.backend.interfaces.atm import ATMAdministration
 from base.backend.utils import get_request_data
 lgr = logging.getLogger(__name__)
 
