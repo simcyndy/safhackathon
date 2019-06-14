@@ -1,3 +1,3 @@
 [
-  "api/tests/test_atm.py::TestATMAdministration::()::test_check_account"
+  "api/tests/test_atm.py::test_check_account"
 ]

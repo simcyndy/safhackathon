@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94a3689f-1ff3-4026-a9a1-6b62f736c990" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/api/backend/interfaces/atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/backend/interfaces/atm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/status.json" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/status.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/htmlcov/test_atm_py.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/tests/test_atm.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tests/test_atm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/safhackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/safhackathon/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+            <state relative-caret-position="50">
+              <caret line="147" column="26" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="26" />
               <folding>
                 <element signature="e#41#55#0" expanded="true" />
               </folding>
@@ -24,11 +32,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/tests/test_atm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="48" column="14" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="130">
+              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+              <folding>
+                <element signature="e#65#92#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3/mock.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="87" column="43" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -64,8 +84,6 @@
         <option value="$PROJECT_DIR$/account/backend/services.py" />
         <option value="$PROJECT_DIR$/base/models.py" />
         <option value="$PROJECT_DIR$/safhackathon/urls.py" />
-        <option value="$PROJECT_DIR$/api/tests/test_atm.py" />
-        <option value="$PROJECT_DIR$/safhackathon/settings.py" />
         <option value="$PROJECT_DIR$/base/backend/services.py" />
         <option value="$PROJECT_DIR$/api/backend/services.py" />
         <option value="$PROJECT_DIR$/account/models.py" />
@@ -73,6 +91,8 @@
         <option value="$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py" />
         <option value="$PROJECT_DIR$/api/views.py" />
         <option value="$PROJECT_DIR$/api/backend/interfaces/atm.py" />
+        <option value="$PROJECT_DIR$/safhackathon/settings.py" />
+        <option value="$PROJECT_DIR$/api/tests/test_atm.py" />
       </list>
     </option>
   </component>
@@ -121,6 +141,63 @@
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
               <item name="atm.py" type="8704e2dd:PyFileNode" />
             </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="test_atm.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+              <item name="safhackathon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
+              <item name="mock.pyi" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="safhackathon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 2.7.13 (C:\Python27\python.exe) &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Typeshed Stubs" type="9c07c3ae:PyTypeShedNode" />
+              <item name="2and3" type="462c0819:PsiDirectoryNode" />
+              <item name="mock.pyi" type="8704e2dd:PyFileNode" />
+              <item name="_patcher" type="dd8bbb05:PyElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.it-qa-assurance">
+  <component name="RunManager" selected="Python tests.pytest for test_atm.test_check_account">
     <configuration name="it-qa-assurance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="safhackathon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,8 +309,24 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_atm.test_check_account" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="safhackathon" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_atm.test_check_account&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_atm.test_check_account" />
         <item itemvalue="Python.it-qa-assurance" />
         <item itemvalue="Python tests.pytest for test_atm.TestATMAdministration.test_check_account" />
         <item itemvalue="Python tests.pytest for test_atm.TestClass.test_check_account" />
@@ -255,29 +348,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_atm_TestATMAdministration - 2019.06.13 at 11h 43m 52s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 16m 34s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration - 2019.06.13 at 12h 00m 45s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 17m 37s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestClass_test_check_account - 2019.06.13 at 13h 30m 15s.xml">
-      <configuration name="pytest for test_atm.TestClass.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 19m 02s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration_test_check_account - 2019.06.13 at 13h 30m 44s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 26m 49s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration_test_check_account - 2019.06.13 at 13h 31m 35s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 27m 34s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration_test_check_account - 2019.06.13 at 13h 33m 36s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 28m 16s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration_test_check_account - 2019.06.13 at 13h 33m 59s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 29m 19s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_atm_TestATMAdministration_test_check_account - 2019.06.13 at 14h 13m 49s.xml">
-      <configuration name="pytest for test_atm.TestATMAdministration.test_check_account" configurationId="tests" />
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 44m 57s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 48m 24s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_atm_test_check_account - 2019.06.14 at 14h 48m 47s.xml">
+      <configuration name="pytest for test_atm.test_check_account" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -298,13 +397,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3840246" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.59907836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33179724" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33179724" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -367,23 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/safhackathon/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="127" column="38" lean-forward="true" selection-start-line="127" selection-start-column="38" selection-end-line="127" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/tests/test_atm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#65#95#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,6 +543,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/safhackathon/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/it-qa-assurance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-241">
@@ -470,10 +559,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/backend/interfaces/atm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="142" column="47" selection-start-line="142" selection-start-column="47" selection-end-line="142" selection-end-column="47" />
+        <state relative-caret-position="50">
+          <caret line="147" column="26" lean-forward="true" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="26" />
           <folding>
             <element signature="e#41#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/third_party/2and3/mock.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="87" column="43" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests/test_atm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#65#92#0" expanded="true" />
           </folding>
         </state>
       </provider>

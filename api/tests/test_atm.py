@@ -2,48 +2,17 @@
 """
 Test for the API services CRUD operations
 """
-from datetime import timedelta
+from decimal import Decimal
 
 import pytest
-from django.utils import timezone
-from mixer.backend.django import mixer
-
+import mock
+# from mixer.backend.django import mixer
+from api.backend.interfaces import atm
 
 # noinspection SpellCheckingInspection
 pytestmark = pytest.mark.django_db
-from api.backend.interfaces.atm import ATMAdministration
 
 
-class TestATMAdministration(object):
-
-	def test_check_account(self):
-		# Override the Python built-in input method
-		ATMAdministration.input = lambda: 'B'
-		# Call the function
-		output = ATMAdministration().check_account()
-		assert output == '("Your current account balance is :", 852)Return to Main Menu?(yes/no)'
-
-	def test_withdrawal(self):
-		# Override the Python built-in input method
-		ATMAdministration.input = lambda: 'B'
-		# Call the function
-		output = ATMAdministration().withdrawal(500)
-		assert output == '("Your current account balance is :", 852)Return to Main Menu?(yes/no)'
-
-	def test_deposit(self):
-		# Override the Python built-in input method
-		ATMAdministration.input = lambda: 'B'
-		# Call the function
-		output = ATMAdministration().deposit(500)
-		assert output == '("Your current account balance is :", 852)Return to Main Menu?(yes/no)'
-
-	def test_welcome_screen(self):
-		# Override the Python built-in input method
-		ATMAdministration.input = lambda: 'B'
-		# Call the function
-		output = ATMAdministration().welcome_screen(500)
-		assert output == '("Your current account balance is :", 852)Return to Main Menu?(yes/no)'
-
-	def teardown_method(self, method):
-		# This method is being called after each test case, and it will revert input back to original function
-		ATMAdministration.input = input
+def test_check_account():
+	with mock.patch.object(__builtins__, 'input', lambda: 'B'):
+		assert atm.check_account() == 'expected_output'
