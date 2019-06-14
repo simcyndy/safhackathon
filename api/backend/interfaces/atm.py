@@ -90,12 +90,14 @@ def deposit(
 
 
 def format_print():
-	return "*" * 150
+	"""Shouldn't have to explain this.."""
+
+	return '-' * 50
 
 
 def welcome_screen():
 	"""Main function of the program"""
-	format_print()
+	print format_print()
 	print (
 		"""
 		Welcome to the SafHackathon Bank!
@@ -106,7 +108,7 @@ def welcome_screen():
 		    [ Q ] Quit
 	    """
 	)
-	format_print()
+	print format_print()
 
 	choice = str(raw_input(
 		"Enter a character to perform an operation:"))
@@ -114,7 +116,7 @@ def welcome_screen():
 		print (
 			"*****************************************CHECK BALANCE*********************************************")
 		check_account()
-		format_print()
+		print format_print()
 	elif choice == "D":
 		print (
 			"*****************************************DEPOSIT FUNDS*********************************************")
